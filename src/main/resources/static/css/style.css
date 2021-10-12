@@ -1,0 +1,52 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+
+#intro {
+    background: url("..//img/jpg/drip.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+
+
+.back-all{
+  background-color: #d7f2fd;
+}
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: rgb(158, 159, 252) !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(239, 241, 241, 0.6) !important;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
+  background: linear-gradient(to 90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
+}

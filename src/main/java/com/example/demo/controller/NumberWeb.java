@@ -15,8 +15,9 @@ public class NumberWeb {
     @ResponseBody
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String init(){
-        NumberService.init();
-        return "初始化为: "+NumberService.get();
+//        NumberService.init();
+//        return "初始化为: "+NumberService.get();
+        return "helloworld web";
     }
 
     /**
